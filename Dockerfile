@@ -8,7 +8,7 @@ RUN apt-get update
 RUN apt-get -y install man sudo software-properties-common build-essential
 
 # Favorites
-RUN apt-get -y install fish git
+RUN apt-get -y install fish git gdb
 
 # Neovim
 RUN add-apt-repository ppa:neovim-ppa/unstable && \
