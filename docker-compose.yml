@@ -1,0 +1,7 @@
+version: '2'
+services:
+  personalshell:
+    build: .
+    hostname: 'PersonalShell'
+    volumes:
+      - ../:/home/gluxon/Developer
